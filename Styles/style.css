@@ -1,0 +1,33 @@
+img{
+	height: 400px;
+	width: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+article{
+	text-align: center;
+	color: red;
+	animation: colorblink 2s infinite;
+	font-weight: bold;
+	font-size: 25px;
+}
+@keyframes colorblink {
+	0% {}
+	50% { color:blue; }
+}
+nav{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+a:hover{
+	color:black;
+}
+a:visited{
+	color: 8A2BE;
+}
+a:link{
+	color:318CE7;
+}
